@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.1/staging' branch; Version is '6000.1.4f1 (03270eb687c6) revision 206606'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 16099 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-Date: 2025-07-07T03:59:17Z
+Date: 2025-07-07T14:55:43Z
 
 COMMAND LINE ARGUMENTS:
 D:\Unity\6000.1.4f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ D:/Unity/SISTIMATIC/Trial
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50078
+50313
 -job-worker-count
 3
 -background-job-worker-count
@@ -62,14 +62,12 @@ D:/Unity/SISTIMATIC/Trial
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3284]  Target information:
+Player connection [8840]  Target information:
 
-Player connection [3284]  * "[IP] 10.0.1.50 [Port] 0 [Flags] 2 [Guid] 2221840855 [EditorId] 2221840855 [Version] 1048832 [Id] WindowsEditor(7,Don-Cornelius-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8840]  * "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 458256828 [EditorId] 458256828 [Version] 1048832 [Id] WindowsEditor(7,Don-Cornelius-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [3284]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 2221840855 [EditorId] 2221840855 [Version] 1048832 [Id] WindowsEditor(7,Don-Cornelius-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [3284] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [3284] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8840] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8840] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -81,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.4f1 (03270eb687c6)
 [Subsystems] Discovering subsystems at path D:/Unity/6000.1.4f1/Editor/Data/Resources/UnitySubsystems
@@ -100,45 +98,45 @@ Initialize mono
 Mono path[0] = 'D:/Unity/6000.1.4f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/6000.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/6000.1.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/6000.1.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/6000.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004534 seconds.
-- Loaded All Assemblies, in  1.240 seconds
+Registered in 0.002659 seconds.
+- Loaded All Assemblies, in  1.176 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.023 seconds
-Domain Reload Profiling: 2262ms
-	BeginReloadAssembly (375ms)
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 2050ms
+	BeginReloadAssembly (382ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (134ms)
-	RebuildNativeTypeToScriptingClass (52ms)
-	initialDomainReloadingComplete (129ms)
-	LoadAllAssembliesAndSetupDomain (548ms)
-		LoadAssemblies (375ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (132ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (140ms)
+	LoadAllAssembliesAndSetupDomain (478ms)
+		LoadAssemblies (381ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (540ms)
-			TypeCache.Refresh (538ms)
-				TypeCache.ScanAssembly (502ms)
+		AnalyzeDomain (470ms)
+			TypeCache.Refresh (466ms)
+				TypeCache.ScanAssembly (432ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1023ms)
+	FinalizeReload (876ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (902ms)
+		SetupLoadedEditorAssemblies (766ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (156ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (183ms)
-			ProcessInitializeOnLoadAttributes (385ms)
-			ProcessInitializeOnLoadMethodAttributes (168ms)
+			InitializePlatformSupportModulesInManaged (135ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -147,49 +145,153 @@ Domain Reload Profiling: 2262ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.730 seconds
-Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.285 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.977 seconds
-Domain Reload Profiling: 3708ms
-	BeginReloadAssembly (431ms)
+- Finished resetting the current domain, in  2.171 seconds
+Domain Reload Profiling: 3457ms
+	BeginReloadAssembly (374ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (130ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (100ms)
-	LoadAllAssembliesAndSetupDomain (1031ms)
-		LoadAssemblies (741ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (732ms)
+		LoadAssemblies (570ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (536ms)
-			TypeCache.Refresh (454ms)
-				TypeCache.ScanAssembly (414ms)
-			BuildScriptInfoCaches (65ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1979ms)
+		AnalyzeDomain (387ms)
+			TypeCache.Refresh (316ms)
+				TypeCache.ScanAssembly (291ms)
+			BuildScriptInfoCaches (55ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2174ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1603ms)
+		SetupLoadedEditorAssemblies (1810ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (255ms)
-			ProcessInitializeOnLoadAttributes (1233ms)
-			ProcessInitializeOnLoadMethodAttributes (93ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (286ms)
+			ProcessInitializeOnLoadAttributes (1404ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
 			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (42ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (48ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3718 unused Assets / (1.4 MB). Loaded Objects now: 4205.
-Memory consumption went from 82.2 MB to 80.8 MB.
-Total: 17.533800 ms (FindLiveObjects: 0.792800 ms CreateObjectMapping: 0.971200 ms MarkObjects: 12.411100 ms  DeleteObjects: 3.355400 ms)
+Unloading 3718 unused Assets / (1.1 MB). Loaded Objects now: 4205.
+Memory consumption went from 83.5 MB to 82.4 MB.
+Total: 16.356200 ms (FindLiveObjects: 0.731700 ms CreateObjectMapping: 0.778700 ms MarkObjects: 12.263700 ms  DeleteObjects: 2.579500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2438.168948 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/Christmas balls/ball yellow.prefab
+  artifactKey: Guid(e530151a1fab1424695090b9c67a1870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/Christmas balls/ball yellow.prefab using Guid(e530151a1fab1424695090b9c67a1870) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14396f62ebf7d5c28b4d2cf387e00057') in 1.2342304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Autumn shrubs/autumn shrub 2.prefab
+  artifactKey: Guid(ed10dcc6e5c1c0e49b2a8cecff40e0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Autumn shrubs/autumn shrub 2.prefab using Guid(ed10dcc6e5c1c0e49b2a8cecff40e0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1b2b21fe6df714e8f51969d8d926c73') in 0.0638114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Autumn bush plants/autumn bush plant.prefab
+  artifactKey: Guid(9da7a5a1609e4774a96af78de1fb1b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Autumn bush plants/autumn bush plant.prefab using Guid(9da7a5a1609e4774a96af78de1fb1b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18df0d1ea6846c4c5d2b0d6d6bc54dd0') in 0.0569324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Autumn bush plants/autumn bush plant 2.prefab
+  artifactKey: Guid(9d89d4fe48c13d741bb05190b05cc1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Autumn bush plants/autumn bush plant 2.prefab using Guid(9d89d4fe48c13d741bb05190b05cc1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24ffdcafa59446c4b06413b6fd2ef8b0') in 0.0638589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Location with environment/autumn atmosphere forest with environment.prefab
+  artifactKey: Guid(fe9cb1b9b4e174249a889ab3e78e65e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Location with environment/autumn atmosphere forest with environment.prefab using Guid(fe9cb1b9b4e174249a889ab3e78e65e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b67d13046e618e132891d7f51325a547') in 0.1478994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 654
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Camping environment/bonfire.prefab
+  artifactKey: Guid(fd2a35f4603b5bd45b6b41ecba1f8f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Camping environment/bonfire.prefab using Guid(fd2a35f4603b5bd45b6b41ecba1f8f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1918c5f8118ddeec085fe6b80868bae6') in 0.0498606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Box/box 2.prefab
+  artifactKey: Guid(8875fc43068e2db44927bce065f79777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Box/box 2.prefab using Guid(8875fc43068e2db44927bce065f79777) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9db34f0dadd0ba4f44fd17f717321cba') in 0.0552471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/Christmas balls/ball purple.prefab
+  artifactKey: Guid(25e3cba4b2f57754db5edbb72db006ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/Christmas balls/ball purple.prefab using Guid(25e3cba4b2f57754db5edbb72db006ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '910e771f44b150bb9fd688a37df3a971') in 0.0599776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Autumn trees/autumn tree 4.prefab
+  artifactKey: Guid(771f05a17941f8f4eaefd2f026aba470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Autumn trees/autumn tree 4.prefab using Guid(771f05a17941f8f4eaefd2f026aba470) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6bae004aeec327994523e15bbcc1864') in 0.0492711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/Christmas balls/ball blue.prefab
+  artifactKey: Guid(a01ca05490854fc4590cf6a35b3582a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/Christmas balls/ball blue.prefab using Guid(a01ca05490854fc4590cf6a35b3582a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4f182a1f21ed837f4ccd74541680ae4') in 0.0662365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Autumn fir trees/autumn pine tree medium.prefab
+  artifactKey: Guid(43c91a3a4907878408bb6d040a3579ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Autumn fir trees/autumn pine tree medium.prefab using Guid(43c91a3a4907878408bb6d040a3579ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e049693f4fe3e8902823d7c3520d458') in 0.057907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Vehicles/boat.prefab
+  artifactKey: Guid(e6e50a3df58977742a60bd31ec35aff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Vehicles/boat.prefab using Guid(e6e50a3df58977742a60bd31ec35aff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efde2bd26e6b76366e952d73e87f4d34') in 0.0700573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/Christmas balls/ball red.prefab
+  artifactKey: Guid(f87ca7d4a36dc9f488ced2f03f6e46b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/Christmas balls/ball red.prefab using Guid(f87ca7d4a36dc9f488ced2f03f6e46b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3c483969c4f00e4cf96cc9111654510') in 0.0487905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
